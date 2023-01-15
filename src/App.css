@@ -20,18 +20,28 @@ body{
 }
 
 .conteiner__task{
-  width: 600px;
+  max-width: 100%;
   min-height: 500px;
   background-color: #d0d0d5;
   padding: 25px;
-  margin: 10px;
   border-radius: 26px;
+  box-shadow: 2px 4px 15px 4px rgba(114, 165, 143, 0.81);
 }
 
 h1{
-  color: #1b1b32;
+  color: rgb(24, 112, 74);
   font-size: 25px;
   font-family: sans-serif;
   text-align: center;
   margin: 20px 0;
+  font-weight: 700;
+}
+
+@media (max-width:605px) {
+  .conteiner__task{
+    width: 100%;
+  }
+  .App{
+    padding: .5rem;
+  }
 }

@@ -11,7 +11,7 @@ function App() {
 
       <div className="App">
         <div className='conteiner__task'>
-          <h1>My tasks</h1>
+          <h1>My Tasks</h1>
           <TaskList />
         </div>
       </div>
